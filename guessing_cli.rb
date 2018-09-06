@@ -1,6 +1,4 @@
 
-require 'pry'
-
 def run_guessing_game
   guess = " "
   binding.pry
@@ -10,7 +8,6 @@ def run_guessing_game
     comp_num = rand(1..6).to_s
     if guess == comp_num
       puts "You guessed the correct number!"
-      #break
     elsif guess == "exit"
       puts "Goodbye!"
       break
