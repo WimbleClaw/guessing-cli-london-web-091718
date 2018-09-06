@@ -1,7 +1,8 @@
 require 'pry'
 
 def run_guessing_game
-  while true 
+  guess = " "
+  while guess
     puts "Guess a number between 1 and 6."
     guess = gets.strip
     comp_num = rand(1..6).to_s
