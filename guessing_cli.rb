@@ -1,4 +1,4 @@
-gem install 'pry'
+
 require 'pry'
 
 def run_guessing_game
